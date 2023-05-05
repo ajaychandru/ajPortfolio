@@ -100,14 +100,18 @@ if (window.innerWidth < 576) {
         for (var i = 0; i < img.length; i++) {
             switch (i) {
                 case 0:
-                    img[i].src = "images/wtt.png";
+                    img[i].src = "images/wttmob.png";
+                    break;
+                case 1:
+                    img[i].src = "images/socialbumpmob.png";
                     break;
 
-                case 1:
+
+                case 2:
                     img[i].src = "images/clipboard-mob.png";
                     break;
 
-                case 2:
+                case 3:
                     img[i].src = "images/portfolio-mob.png"
                 default:
 
@@ -179,9 +183,9 @@ carouselImg.forEach(function (element, i) {
             case 1:
                 window.open("https://socialbump.co.in/");
                 break;
-                case 2:
-                    window.open("https://ajaychandru.github.io/clipboar-landing-page/");
-                    break;
+            case 2:
+                window.open("https://ajaychandru.github.io/clipboar-landing-page/");
+                break;
             case 3:
                 window.open("https://ajaychandru.github.io/developer-portfolio/");
                 break;
